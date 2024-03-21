@@ -52,7 +52,7 @@ char prompt_for_move(char* player_name) {
     char move;
     printf("Type r for rock, p for paper, s for scissors\n");
     printf("%s, enter your move: ", player_name);
-    scanf("%c", &move);;
+    scanf(" %c", &move);;
     return move;
 }
 
